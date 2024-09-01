@@ -1,25 +1,5 @@
 {
   "extends": [
-    "next/core-web-vitals",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "rules": {
-    "react/react-in-jsx-scope": "off", // Next.js doesn't require React in scope
-    "react/prop-types": "off", // Since you're using TypeScript for type checking
-    "@typescript-eslint/explicit-function-return-type": "off", // Optional, depends on your preference
-    "@typescript-eslint/no-explicit-any": "off" // Optional, for easier migration
-  }
+    "next/core-web-vitals"
+  ]
 }
